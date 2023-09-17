@@ -1,0 +1,41 @@
+.navbar{
+    width:100%;
+    background-color: #000000 ;
+    overflow:auto;
+   display: flex;
+}
+.navbar a {
+    align-self: flex-end;
+    padding: 12px ;
+    color: hsl(95.26deg 6.25% 97.31%);
+    text-decoration: none;
+    font-size: 20px;
+  }
+@media screen and (max-width: 500px) 
+{
+    .navbar a {
+      float: none;
+      display: block;
+}
+}
+.active {
+  color: hsl(95.26deg 6.25% 97.31%);
+    font: 20px Georgia, serif;
+}
+.nav-logo{
+   float:left;
+   align-self: flex-start;
+}
+.nav-logo img{
+   padding:8px;
+ }
+ 
+footer {
+  color: hsl(95.26deg 6.25% 97.31%);
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom:0px;
+  background-color:#177e8900;
+  margin-top: 2rem;
+}
